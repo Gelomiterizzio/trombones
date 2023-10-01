@@ -1,0 +1,183 @@
+* {
+    font-size: 17px;
+    
+}
+.container {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+h2 {
+    font-size: 30px;
+}
+.icon {
+    display: flex;
+}
+ul {
+    list-style: none;
+}
+#email-submit {
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-bottom: 80px;
+    margin-top: 150px;
+    padding: 18px 0 18px 0;
+    text-align: center;
+}
+#submit {
+    background-color: goldenrod;
+}
+#submit:hover {
+    background-color:darkseagreen;
+    color: white;
+}
+#img-header {
+    width: 300px;
+}
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFF;
+    justify-content: space-around;
+    align-items: center;
+}
+nav > ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.img-feature {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.beneficios {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.icon {
+    height: 125px;
+    display: flex;
+    width: 20%;
+
+    margin-right: 20px;
+}
+
+.features-description {
+    width: 70%;
+    height: auto;
+    display: block;
+}
+#video-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#prices {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+   
+}
+.levels {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    width: 250px;
+    padding-bottom: 12px;
+}
+ol {
+    list-style: none;
+    padding-left: 0;
+}
+#valve {
+    margin-left: 30px;
+}
+#bass {
+    margin-left: 21px;
+}
+#footer-prices {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 40px;
+}
+.sub-titles {
+    background-color: silver;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.boton {
+    background-color: yellow;
+}
+.boton:hover {
+    background-color:chartreuse;
+    color: white;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    * {
+        font-size: 2vw;
+    }
+    body {
+        width: 100vw;
+        height: 115vh;
+    }
+    .container {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    h2 {
+        font-size: 3vw !important;
+    }
+    #footer-prices {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    #email-submit {
+        margin-top: 150px;
+    }
+    .levels {
+        width: 20vw;
+    }
+    .beneficios {
+        height: auto;
+    }
+    .features-description {
+        height: auto;
+    }
+    .icon {
+        height: auto;
+    }
+    #video-div {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #handcrafted {
+        font-size: 70%;
+    }
+    #email-submit {
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+}
